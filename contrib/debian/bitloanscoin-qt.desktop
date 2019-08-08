@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitLoans
+Comment=BitLoans P2P Cryptocurrency
+Comment[fr]=BitLoans, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitLoans, eşten eşe kriptografik sanal para birimi
+Exec=bitloanscoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitloanscoin128
+MimeType=x-scheme-handler/bitloanscoin;
+Categories=Office;Finance;

@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitloanscoin_bg.qm</file>
+        <file alias="ca">locale/bitloanscoin_ca.qm</file>
+        <file alias="cs">locale/bitloanscoin_cs.qm</file>
+        <file alias="da">locale/bitloanscoin_da.qm</file>
+        <file alias="de">locale/bitloanscoin_de.qm</file>
+        <file alias="en">locale/bitloanscoin_en.qm</file>
+        <file alias="en_US">locale/bitloanscoin_en_US.qm</file>
+        <file alias="es">locale/bitloanscoin_es.qm</file>
+        <file alias="fi">locale/bitloanscoin_fi.qm</file>
+        <file alias="fr_FR">locale/bitloanscoin_fr_FR.qm</file>
+        <file alias="hr">locale/bitloanscoin_hr.qm</file>
+        <file alias="it">locale/bitloanscoin_it.qm</file>
+        <file alias="ja">locale/bitloanscoin_ja.qm</file>
+        <file alias="ko_KR">locale/bitloanscoin_ko_KR.qm</file>
+        <file alias="nl">locale/bitloanscoin_nl.qm</file>
+        <file alias="pl">locale/bitloanscoin_pl.qm</file>
+        <file alias="pt">locale/bitloanscoin_pt.qm</file>
+        <file alias="pt_BR">locale/bitloanscoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bitloanscoin_ro_RO.qm</file>
+        <file alias="ru">locale/bitloanscoin_ru.qm</file>
+        <file alias="sk">locale/bitloanscoin_sk.qm</file>
+        <file alias="sv">locale/bitloanscoin_sv.qm</file>
+        <file alias="tr">locale/bitloanscoin_tr.qm</file>
+        <file alias="uk">locale/bitloanscoin_uk.qm</file>
+        <file alias="zh_CN">locale/bitloanscoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitloanscoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

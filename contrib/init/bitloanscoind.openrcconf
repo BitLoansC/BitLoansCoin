@@ -1,0 +1,26 @@
+# /etc/conf.d/bitloanscoind: config file for /etc/init.d/bitloanscoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitloanscoin/bitloanscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitloanscoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitloanscoind.pid"
+
+# Where to write bitloanscoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitloanscoind"
+
+# User and group to own bitloanscoind process
+#BITCOIND_USER="bitloanscoin"
+#BITCOIND_GROUP="bitloanscoin"
+
+# Path to bitloanscoind executable
+#BITCOIND_BIN="/usr/bin/bitloanscoind"
+
+# Nice value to run bitloanscoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

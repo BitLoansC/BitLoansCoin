@@ -1,0 +1,26 @@
+[Unit]
+Description=BLON's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitloanscoin
+Group=bitloanscoin
+
+Type=forking
+PIDFile=/var/lib/bitloanscoind/bitloanscoind.pid
+
+ExecStart=/usr/bin/bitloanscoind -daemon -pid=/var/lib/bitloanscoind/bitloanscoind.pid \
+          -conf=/etc/bitloanscoin/bitloanscoin.conf -datadir=/var/lib/bitloanscoind
+
+ExecStop=-/usr/bin/bitloanscoin-cli -conf=/etc/bitloanscoin/bitloanscoin.conf \
+         -datadir=/var/lib/bitloanscoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
